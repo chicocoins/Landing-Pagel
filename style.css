@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.header {
+    background-color: red;
+}
+
+.conteudo-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto-header {
+    width: 50%;
+}
+.imagem-header {
+}
