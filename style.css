@@ -16,11 +16,36 @@
     top: 0;
 }
 
-.links {
+.navbar2 {
+
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+
 }
 
-.link {
+.opala {
+    padding: 200px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
+
+.opalafto {
+ height: 30%;
+
+
+}
+
+
 
 .logo {
     height: 40px;
@@ -47,8 +72,8 @@ flex-direction: row;
     background-color: azure;
 }
 
-.texto-header {
-}
+
+
 
 .imagem-header {
     width: 50%;
@@ -96,7 +121,5 @@ flex-direction: row;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   padding: 20px;
-  
-
+   padding: 20px; 
 }
