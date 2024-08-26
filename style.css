@@ -6,7 +6,7 @@
 
 /* NavBar */
 .navbar {
-    background-color: aqua;
+    background-color:rgb(80, 77, 77);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 
 .navbar2 {
 
-    background-color: aqua;
+    background-color:rgb(80, 77, 77);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,12 +39,9 @@
 
 }
 
-.opalafto {
- height: 30%;
-
-
+.opala img{
+    width: 100%;
 }
-
 
 
 .logo {
@@ -64,7 +61,7 @@ flex-direction: row;
     flex-direction: column;
     justify-content: space-between;
     padding: 15px;
-    background-color: gray;
+    background-color:rgb(80, 77, 77);
 
 }
 
@@ -76,50 +73,75 @@ flex-direction: row;
 
 
 .imagem-header {
-    width: 50%;
+    width: calc(50% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background-color:rgb(80, 77, 77);
 }
 
 .secao1{
     padding: 20px;
-    background-color: gray;
+    background-color:rgb(209, 199, 199);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+.secao2{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+background-color: rgb(209, 199, 199);
+
 }
 
 .titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-color: white;
 }
 
-.card1{
-    background-color: aquamarine;
+.sessaocard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    background-color: rgb(80, 77, 77);
    width: 27%;
-   height: 27%;
+   
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    padding: 20px;
+   color: white;
 }
 
-.card2{
-    background-color: aquamarine;
-   width: 27%;
-   height: 27%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding: 20px;
+.footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+padding: 20px;
+background-color:rgb(80, 77, 77);
 }
 
-.card3{
-    background-color: aquamarine;
-   width: 27%;
-   height: 27%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding: 20px; 
+.footer img{
+    height: 100px;
+}
+
+.link {
+    color: white;
 }
