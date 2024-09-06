@@ -1,295 +1,55 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* NavBar */
-.navbar {
-    background-color: #333;
-    color: rgb(50, 50, 50);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-.navbar .links{
-display: flex;
-gap: 20px;
-}
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do corpo */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-/* Estilo do header */
-.header {
-    background-color: #004a9b; /* Azul escuro para destacar o carro */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.header-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.header-title {
-    margin-top: 10px;
-    font-size: 2.5em;
-}
-
-/* Estilo principal do conteúdo */
-.main-content {
-    padding: 20px;
-}
-
-.overview, .features, .gallery, .contact {
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #004a9b;
-}
-
-/* Estilo da galeria */
-.gallery-images {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.gallery-images img {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Estilo do footer */
-.footer {
-    background-color: #004a9b;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Estilo do conteúdo de contato */
-address {
-    font-style: normal;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .gallery-images {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .gallery-images img {
-        width: 90%;
-    }
-}
-
-.navbar2 {
-
-    background-color:rgb(80, 77, 77);
+/* Index */
+.headerI {
+    background-color: #232e3a;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    position: sticky;
-    top: 0;
-
-}
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do corpo */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-/* Estilo do header */
-.header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.header-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.header-title {
-    margin-top: 10px;
-    font-size: 2.5em;
-}
-
-/* Estilo principal do conteúdo */
-.main-content {
-    padding: 20px;
-}
-
-.overview, .features, .gallery, .contact {
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-/* Estilo da galeria */
-.gallery-images {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.gallery-images img {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Estilo do footer */
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Estilo do conteúdo de contato */
-address {
-    font-style: normal;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .gallery-images {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .gallery-images img {
-        width: 90%;
-    }
-}
-
-
-.opala {
-    padding: 200px;
-    background-color: gray;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-}
-
-.opala img{
-    width: 100%;
-}
-
-
-.logo {
-    height: 40px;
-}
-
-/* Header */
-.header {
-
-display: flex;
-flex-direction: row;
 }
 
 .conteudo-header {
-    width: calc(50% - 30px);
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 15px;
-    background-color:rgb(80, 77, 77);
+    background-color: rgb(80, 77, 77);
+}
 
+.conteudo-header img{
+    width: 100%;
+    height: 100%;
 }
 
 .conteudo-texto-header {
     background-color: azure;
 }
 
-
-
-
 .imagem-header {
-    width: calc(50% - 30px);
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 15px;
-    background-color:rgb(80, 77, 77);
+    background-color: rgb(80, 77, 77);
 }
 
-.secao1{
+.secao1 {
     padding: 20px;
-    background-color:rgb(209, 199, 199);
+    background-color: rgb(209, 199, 199);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.secao2{
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 20px;
-background-color: rgb(209, 199, 199);
-
+.secao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(209, 199, 199);
 }
 
-.titulo{
+.titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,7 +61,6 @@ background-color: rgb(209, 199, 199);
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .card img {
@@ -310,46 +69,49 @@ background-color: rgb(209, 199, 199);
 
 .card {
     background-color: rgb(80, 77, 77);
-   width: 27%;
-   
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding: 20px;
-   color: white;
+    width: 27%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
 }
 
+/*footer geral*/
 .footer {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 20px;
-padding: 20px;
-background-color:rgb(80, 77, 77);
-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(0, 176, 252);
+    color: white;
 }
 
-.footer .link{
+.footer .link {
 
     color: white;
 }
-.footer img{
+
+.footer img {
     height: 100px;
 }
 
 .link {
     color: white;
 }
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
-header {
-    background: #333;
+.header {
+    background-color: #464242;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -359,63 +121,231 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    margin: 10px 0;
-}
-
-section#about {
-    background: #fff;
-    border: 1px solid #ddd;
-}
-
-section#features {
-    background: #f9f9f9;
-}
-
-section#gallery {
-    background: #fff;
-    border: 1px solid #ddd;
-}
-
-.gallery {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+/*gallery geral*/
 
 .gallery img {
     max-width: 100%;
     height: auto;
     margin: 10px;
-    border: 3px solid #333;
+    border: 3px solid #000000;
+}
+/* opala */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.navbar {
+    background-color: rgb(0, 176, 252);
+    color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+
+.navbar .links {
+    display: flex;
+    gap: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.headerO {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+.main-content {
+    padding: 20px;
+}
+
+.overview,
+.features,
+.gallery,
+.contact {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #232e3a;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+address {
+    font-style: normal;
+}
+
+.logo {
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .gallery-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-images img {
+        width: 90%;
+    }
+}
+
+/*hostbar*/
+.navbar2 {
+
+    background-color: rgb(80, 47, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+
+}
+
+/* maverick */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+
+.headerM {
+    background-color: #524141;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.header-title {
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.overview,
+.features,
+.gallery,
+.contact {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.gallery-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.footer {
+    background-color: #6e6060;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #000000;
+
+}
+
+
+address {
+    font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+    .gallery-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-images img {
+        width: 90%;
+    }
+}
+
